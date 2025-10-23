@@ -40,9 +40,9 @@ class Main {
         }
         
         isMember = false;
-        if(!isMember){
-            System.out.println("NOT allowed in the club");
-        }
+        // if(){
+        //     System.out.println("NOT allowed in the club");
+        // }
         
         
         
