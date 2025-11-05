@@ -35,7 +35,7 @@ class Main {
         }
         
         boolean isMember = true;
-        if(isMember){
+        if(isMember==true){
             System.out.println("Allow in the club");
         }
         
