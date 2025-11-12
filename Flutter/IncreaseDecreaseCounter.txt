@@ -1,12 +1,17 @@
-   if (goingUp==true) { 
+void _incrementCounter() {
+    setState(() {
+      //====================================
+      if (goingUp==true) { 
 
-   _counter++; 
+        _counter++; 
 
-   } 
+      } 
 
-   else if(goingUp==false){ 
+      else if(goingUp==false){
  
 
-   } 
+      } 
 
- 
+    //====================================
+    });
+  }
