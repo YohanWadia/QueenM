@@ -1,0 +1,13 @@
+if (goingUp==true) { 
+
+_counter++; 
+
+} 
+
+else if(goingUp==false){ 
+
+ 
+
+} 
+
+ 
