@@ -1,13 +1,12 @@
-if (goingUp==true) { 
+   if (goingUp==true) { 
 
-_counter++; 
+   _counter++; 
 
-} 
+   } 
 
-else if(goingUp==false){ 
-
+   else if(goingUp==false){ 
  
 
-} 
+   } 
 
  
