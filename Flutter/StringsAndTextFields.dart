@@ -66,6 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
               controller: myController,              
               decoration: InputDecoration(
               hintText: "Enter Something",
+              //labelText: "Info",  
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(8),
                 borderSide: BorderSide(color: Colors.grey),
