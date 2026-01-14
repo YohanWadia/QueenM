@@ -37,6 +37,9 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  String operator="";
+  String display="0";
+  String num1="", num2="";
   
   @override
   Widget build(BuildContext context) {
@@ -63,19 +66,31 @@ class _MyHomePageState extends State<MyHomePage> {
             children: [
               ElevatedButton(
                 child:Text("7"),
-                onPressed: (){},
+                onPressed: (){
+                  
+                  setState(() { });
+                },
               ),
               ElevatedButton(
                 child:Text("8"),
-                onPressed: (){},
+                onPressed: (){
+                  
+                  setState(() { });
+                },
               ),
               ElevatedButton(
                 child:Text("9"),
-                onPressed: (){},
+                onPressed: (){
+                  
+                  setState(() { });
+                },
               ),
               ElevatedButton(
                 child:Text("/"),
-                onPressed: (){},
+                onPressed: (){
+                  
+                  setState(() { });
+                },
               ),
             ],
           ),
@@ -84,19 +99,31 @@ class _MyHomePageState extends State<MyHomePage> {
             children: [
               ElevatedButton(
                 child:Text("4"),
-                onPressed: (){},
+                onPressed: (){
+                  
+                  setState(() { });
+                },
               ),
               ElevatedButton(
                 child:Text("5"),
-                onPressed: (){},
+                onPressed: (){
+                  
+                  setState(() { });
+                },
               ),
               ElevatedButton(
                 child:Text("6"),
-                onPressed: (){},
+                onPressed: (){
+                  
+                  setState(() { });
+                },
               ),
               ElevatedButton(
                 child:Text("x"),
-                onPressed: (){},
+                onPressed: (){
+                  
+                  setState(() { });
+                },
               ),
             ],
           ),
@@ -105,19 +132,31 @@ class _MyHomePageState extends State<MyHomePage> {
             children: [
               ElevatedButton(
                 child:Text("1"),
-                onPressed: (){},
+                onPressed: (){
+                  
+                  setState(() { });
+                },
               ),
               ElevatedButton(
                 child:Text("2"),
-                onPressed: (){},
+                onPressed: (){
+                  
+                  setState(() { });
+                },
               ),
               ElevatedButton(
                 child:Text("3"),
-                onPressed: (){},
+                onPressed: (){
+                  
+                  setState(() { });
+                },
               ),
               ElevatedButton(
                 child:Text("-"),
-                onPressed: (){},
+                onPressed: (){
+                  
+                  setState(() { });
+                },
               ),
             ],
           ),
@@ -126,19 +165,31 @@ class _MyHomePageState extends State<MyHomePage> {
             children: [
               ElevatedButton(
                 child:Text("C"),
-                onPressed: (){},
+                onPressed: (){
+                  
+                  setState(() { });
+                },
               ),
               ElevatedButton(
                 child:Text("0"),
-                onPressed: (){},
+                onPressed: (){
+                  
+                  setState(() { });
+                },
               ),
               ElevatedButton(
                 child:Text("="),
-                onPressed: (){},
+                onPressed: (){
+                  
+                  setState(() { });
+                },
               ),
               ElevatedButton(
                 child:Text("+"),
-                onPressed: (){},
+                onPressed: (){
+                  
+                  setState(() { });
+                },
               ),
             ],
           ),
