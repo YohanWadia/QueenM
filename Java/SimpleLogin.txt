@@ -1,0 +1,21 @@
+    @FXML
+    TextField txtLogin, txtPassword;
+
+    @FXML
+    Button  btnSignIn;
+
+    @FXML
+    Label labelMessage;
+
+
+=====================================================
+
+    <TextField fx:id="txtLogin" />
+    <TextField fx:id="txtPassword" />
+
+    <Button fx:id="btnSignIn" text="SignIn" />
+
+    <Label fx:id="labelMessage" />
+
+
+ 
