@@ -1,0 +1,20 @@
+
+    <ImageView fx:id="myImageView" fitHeight="200.0" fitWidth="200.0">
+        <image>
+            <Image url="@../../../assets/placeholder.png" />
+        </image>
+    </ImageView>
+
+
+==============================================================
+
+
+String imgPath = "/assets/one.png";
+
+URL imageURL = getClass().getResource(imgPath);
+Image newImage = new Image(imageURL.toExternalForm());
+
+
+
+
+  
