@@ -1,0 +1,20 @@
+
+ <Button fx:id="btn" text="OK" minWidth="30" minHeight="30"
+            onAction="#forActionEvent" onMouseClicked="#forMouseClick" onMouseEntered="#forMouseEntered"/>
+
+=========================================
+  @FXML
+    Button btn;
+
+    @FXML
+    protected void forActionEvent() {
+        System.out.println("OnAction Fired,,,,,YEAH!");
+    }
+
+    public void forMouseClick(MouseEvent mouseEvent) {
+        System.out.println("MouaeClicked Fired xxxxxxxxxx");
+    }
+
+    public void forMouseEntered(MouseEvent mouseEvent) {
+        System.out.println("Mouse Over Fired.......");
+    }
