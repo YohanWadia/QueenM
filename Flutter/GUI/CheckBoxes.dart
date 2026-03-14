@@ -66,7 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   checked[0] = value!;
                 });
               },
-              title: const Text('Fries'),
+              title: Text(items[0]),
               controlAffinity: ListTileControlAffinity.leading,
           ),
             ),
@@ -79,7 +79,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   checked[1] = value!;
                 });
               },
-              title: const Text('Drink'),
+              title: Text(items[1]),
               controlAffinity: ListTileControlAffinity.leading,
             ),
           ),
@@ -92,7 +92,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   checked[2] = value!;
                 });
               },
-              title: const Text('Cookie'),
+              title: Text(items[2]),
               controlAffinity: ListTileControlAffinity.leading,
 
             ),
@@ -106,7 +106,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   checked[3] = value!;
                 });
               },
-              title: const Text('Jalapeno'),
+              title: Text(items[3]),
               controlAffinity: ListTileControlAffinity.leading,
             ),
           ),
