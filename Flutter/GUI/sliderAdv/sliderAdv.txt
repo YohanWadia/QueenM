@@ -1,0 +1,1 @@
+The Advanced version which will use images to display the emotion determined by the silder!
