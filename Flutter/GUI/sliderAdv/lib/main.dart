@@ -39,6 +39,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   double moodValue=2;
+  String imgtoShow = "normal";
   
   @override
   Widget build(BuildContext context) {
@@ -52,7 +53,9 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: <Widget>[
 
-          Image.asset('assets/happy.png', 
+            Text(imgtoShow, style: TextStyle(fontSize: 60),),
+
+          Image.asset("assets/$imgtoShow.png", 
             width: 250,        
             height: 250,
             fit: BoxFit.fill,
@@ -64,10 +67,15 @@ class _MyHomePageState extends State<MyHomePage> {
               min: 0,
               max: 4,
               divisions: 4,
-              label: moodValue.toString(),
               onChanged: (double value) {
                 setState(() {
                   moodValue = value;
+                  if(moodValue==0){
+                    
+                  }
+                  
+
+
                   print(moodValue);
                 });
               },
