@@ -49,9 +49,16 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: Column(          
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: <Widget>[
-            
+
+          Image.asset('assets/happy.png', 
+            width: 250,        
+            height: 250,
+            fit: BoxFit.fill,
+          ),  
+
+
             Slider(
               value: moodValue,
               min: 0,
@@ -66,7 +73,8 @@ class _MyHomePageState extends State<MyHomePage> {
               },
             ),
 
-            
+
+                     
             
           ],
         ),
