@@ -6,10 +6,10 @@ public class NestedLoops {
 
             for (int x = 1; x < 11; x++) {
                 System.out.println("x-" + j);
-            }// j loop
+            }// x loop
 
 
-        }// i loop
+        }// y loop
 
 
 
