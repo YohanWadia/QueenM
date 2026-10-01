@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
          sq = sq - 1;
         }
         
-        print("Timer: Square moves $move");
+        //print("Timer: Square moves $move");
         
         if(move!=""){//game changing code
           
