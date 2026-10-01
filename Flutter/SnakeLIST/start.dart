@@ -51,7 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
         }
         
         
-         print("Timer: Square moves $move");
+         //print("Timer: Square moves $move");
         
  //=====================================       
       });
