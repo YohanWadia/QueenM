@@ -115,7 +115,7 @@ class _LessonScreenState extends State<LessonScreen> {
       // FAB with a login icon
       floatingActionButton: FloatingActionButton(
         onPressed: (){
-          isLoading = !isLoading;          
+          //isLoading = !isLoading;          
           setState((){});
         },        
         child: const Icon(Icons.login),
